@@ -853,7 +853,7 @@ table.alt tbody tr td {
         margin-right: 2rem;
         width: 20%; }
         .testimonials .content .author .image img {
-          /* border-radius: 50%; */
+          border-radius: 20%;
           max-width: 100%; }
     .testimonials .content .credit {
       font-size: 0.75rem; }
@@ -1751,8 +1751,8 @@ ul.icons {
   display: inline-block;
   position: relative; }
   .image img {
-    border-radius: 3px;
-    display: block;
+    border-radius: 4px;
+    display: inline-block;
   }
   .image.left, .image.right {
     max-width: 40%; }
@@ -2825,8 +2825,8 @@ body.is-menu-visible #menu {
   visibility: visible; }
 
 .image{
-  width: 80px !important;
-  height: 70px;
+  width: 35%!important;
+  height: 35%;
 }
 
 
