@@ -19,14 +19,15 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
 		crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body class="is-preload">
 
 	<!-- Header -->
 	<header id="header">
-		<a class="logo" href="index.html">Inicio</a>
+		<a class="logo" href="../index.html">Inicio</a>
 		<nav>
 			<a href="#menu">Menu</a>
 		</nav>
@@ -35,100 +36,117 @@
 	<!-- Nav -->
 	<nav id="menu">
 		<ul class="links">
-			<li><a class="text-center fst-italic fw-bold" href="index.html">INICIO</a></li>
-			<li><a class="text-center fst-italic fw-bold" href="./iteracion_I/sprint_index.html">ITERACION I</a></li>
-			<li><a class="text-center fst-italic fw-bold" href="./iteracion_II/sprint_index.html">ITERACION II</a></li>
-			<!-- <li><a class="text-center fst-italic fw-bold" href="./sprint_III/sprint_index.html">ITERACIÓN III</a></li> -->
+			<li><a class="text-center fst-italic fw-bold" href="../index.html">INICIO</a></li>
+			<li><a class="text-center fst-italic fw-bold" href="../iteracion_I/sprint_index.html">ITERACIÓN I</a></li>
+			<li><a class="text-center fst-italic fw-bold" href="#">ITERACIÓN II</a></li>
+			<!-- <li><a class="text-center fst-italic fw-bold" href="../iteracion_III/sprint_index.html">ITERACIÓN III</a></li> --> 
 		</ul>
 	</nav>
 
 	<!-- Banner -->
 	<section id="banner">
 		<div class="inner">
-			<h1>Proyecto de Gestión de proyectos de TI</h1>
-			<!-- <p>Bienvenidos, llevaremos a cabo la presentación <br />
-				de nuestro proyecto paso a paso con la ayuda de la Guía de fundamentos Scrum</p> -->
+			<h1>ITERACIÓN II</h1>
+			<p>Bienvenidos, llevaremos a cabo la elaboración <br/>
+				de la iteración I con metodología XP</p>
 		</div>
-		<!-- <video autoplay loop muted src="images/banner-2.mp4"></video> -->
 	</section>
 
 	<!-- Highlights -->
 	<section class="wrapper">
 		<div class="inner">
 			<header class="special">
-				<h2>INTRODUCCIÓN</h2>
-				<p>Este capítulo incluye los procesos relacionados con el inicio de un proyecto: Visión del proyecto,
-					Presentación de los integrantes y lluvia de ideas para lograr el objetivo del proyecto.</p>
+				<h2>FASES DE LA PROGRAMACIÓN EXTREMA</h2>
 			</header>
 			<div class="highlights">
 				<section>
 					<div class="content">
 						<header>
-							<a href="inicio/vision_proyecto.html" class="icon fa-eye "><span class="label">Icon</span></a>
-							<h3>Vision del proyecto</h3>
+							<a href="./planeacion.html" class="icon fa-wrench"><span class="label">Icon</span></a>
+							<h3>PLANEACIÓN</h3>
+							<p>SLa Metodología XP plantea la planificación como un diálogo continuo entre las
+								partes involucradas en el proyecto, incluyendo al cliente, a los programadores y
+								a los coordinadores. El proyecto comienza recopilando las historias de
+								usuarios, las que constituyen a los tradicionales casos de uso. Una vez
+								obtenidas estas historias de usuarios, los programadores evalúan rápidamente
+								el tiempo de desarrollo de cada una.
+							</p>
 						</header>
-						<p>En este proceso, el caso de negocio del proyecto se revisa para crear
-							una declaración de la visión del proyecto que servirá de inspiración y
-							proporcionará un enfoque de todo el proyecto.</p>
 					</div>
 				</section>
 				<section>
 					<div class="content">
 						<header>
-							<a href="inicio/ident_scrum.html" class="icon fa-user-circle-o"><span class="label">Icon</span></a>
-							<h3>Identificar al Scrum Master y Stakeholder</h3>
+							<a href="./diseno.html" class="icon fa-thumbs-o-up"><span class="label">Icon</span></a>
+							<h3>Diseño</h3>
 						</header>
-						<p>En este proceso, se identifica al Scrum Master y a los stakeholders utilizando criterios de selección específicos.</p>
+						<p>En este paso se intentará trabajar con un código sencillo, haciendo lo mínimo imprescindible para que funcione. Se obtendrá el prototipo. Además, para el diseño del software orientado a objetos, se crearán tarjetas CRC (Clase-Responsabilidad-Colaboración).</p>
+					</div>
+				</section>
+
+				<section>
+					<div class="content">
+						<header>
+							<a href="./codificacion.html" class="icon fa-wrench"><span class="label">Icon</span></a>
+							<h3>Codificación</h3>
+						</header>
+						<p>La programación aquí se hace «a dos manos», en parejas en frente del mismo ordenador. Incluso, a veces se intercambian las parejas. De esta forma, nos aseguramos que se realice un código más universal, con el que cualquier otro programador podría trabajar y entender.</p>
 					</div>
 				</section>
 				<section>
 					<div class="content">
 						<header>
-							<a href="inicio/equipo_scrum.html" class="icon fa-spinner"><span class="label">Icon</span></a>
-							<h3>Formar el equipo Scrum</h3>
+							<a href="./pruebas.html" class="icon fa-floppy-o"><span class="label">Icon</span></a>
+							<h3>Pruebas</h3>
 						</header>
-						<p>En este proceso, se seleccionan a los miembros del Equipo Scrum. Normalmente, el Product Owner es el responsable principal de la selección de los miembros del equipo, pero a menudo lo hace en colaboración con el Scrum Master</p>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<header>
-							<a href="inicio/desarrollar_epicas.html" class="icon fa-file-text"><span class="label">Icon</span></a>
-							<h3>Desarrollar épica(s)</h3>
-						</header>
-						<p>En este proceso, la Declaración de la visión del proyecto (Project Vision Statement) sirve como base para el desarrollo de épicas. Las reuniones de grupo de usuarios pueden llevarse a cabo para discutir la(las) épica(s) apropiada(s).</p>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<header>
-							<a href="inicio/backlog_priorizado.html" class="icon fa-list-alt"><span class="label">Icon</span></a>
-							<h3>Crear el Backlog Priorizado del Producto</h3>
-						</header>
-						<p>En este proceso, la épica(s) es refinada, detallada y luego priorizada para el Backlog Priorizado del Producto del proyecto. En este punto también se establecen los criterios de terminado.</p>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<header>
-							<a href="inicio/planificacion_lanzamiento.html" class="icon fa-pencil-square-o"><span class="label">Icon</span></a>
-							<h3>Realizar la planificación del lanzamiento</h3>
-						</header>
-						<p>En este proceso, el equipo principal de Scrum revisa las historias de usuario en el Backlog Priorizado del Producto para desarrollar un cronograma de planificación del lanzamiento, que es esencialmente un programa de implementación por fases que se puede compartir con los stakeholders del proyecto. </p>
+						<p>Se deben realizar pruebas automáticas continuamente. Al tratarse normalmente de proyectos a corto plazo, este testeo automatizado y constante es clave. Además, el propio cliente puede hacer pruebas, proponer nuevas pruebas e ir validando las mini-versiones.</p>
 					</div>
 				</section>
 				
+				<section>
+					<div class="content">
+						<header>
+							<a href="./lanzamiento.html" class="icon fa-thumbs-o-up"><span class="label">Icon</span></a>
+							<h3>lanzamiento</h3>
+						</header>
+						<p>Si hemos llegado a este punto, significa que hemos probado todas las historias de usuario o mini-versiones con éxito, ajustándonos a los requerimientos del clientes. Tenemos un software útil y podemos incorporarlo en el producto.</p>
+					</div>
+				</section>
+
+				<section>
+					<div class="content">
+						<header>
+							<a href="./retrospectiva.html" class="icon fa-thumbs-o-up"><span class="label">Icon</span></a>
+							<h3>Retrospectiva</h3>
+						</header>
+						<p> La retrospectiva consiste en la mejora continua de la forma de trabajo y gestión de proyectos. La clave consiste en reunirse en un ambiente cómodo que permita al equipo conocer y analizar los procesos para identificar cambios que nos ayuden a mejorar.</p>
+					</div>
+				</section>
+
+				<!-- <section>
+					<div class="content">
+						<header>
+							<a href="./riesgos.html" class="icon fa-thumbs-o-up"><span class="label">Icon</span></a>
+							<h3>Gestión de riesgos</h3>
+						</header>
+						<p> La retrospectiva consiste en la mejora continua de la forma de trabajo y gestión de proyectos. La clave consiste en reunirse en un ambiente cómodo que permita al equipo conocer y analizar los procesos para identificar cambios que nos ayuden a mejorar.</p>
+					</div>
+				</section> -->
 			</div>
 		</div>
 	</section>
 
-	<!-- CTA -->
+	
 	<section id="cta" class="wrapper">
 		<div class="inner">
 			<h2>Visión del proyecto</h2>
 			<p><em class="fs-3">"Ser reconocido como una empresa líder en confecciones de prendas de vestir con calidad internacional."</em></p>
 		</div>
 	</section>
+
+   	
+
+
 
 	<!-- Testimonials -->
 	<section class="wrapper">
@@ -239,11 +257,11 @@
 	</footer>
 
 	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
 
 </body>
 
